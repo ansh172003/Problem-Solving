@@ -1,4 +1,4 @@
-class Sol {
+class LCSearchRotatedSorted2 {
     public boolean search(int[] nums, int target) {
         int n = nums.length;
         int low = 0, high = n-1;

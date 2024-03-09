@@ -1,4 +1,4 @@
-class GFGSol {
+class GFGRotationPoint {
     int findKRotation(int arr[], int n) {
         int low = 0;
         int high = arr.length - 1;

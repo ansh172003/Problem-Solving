@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+class ATCCountHigherElements {
     public static void minHeight(int[] heights, int[] tests){
         Arrays.sort(heights);
         int n = heights.length;

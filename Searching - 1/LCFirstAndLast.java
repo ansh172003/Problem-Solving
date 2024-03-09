@@ -1,4 +1,4 @@
-class Solution {
+class LCFirstAndLast {
     public int[] searchRange(int[] nums, int target) {
         int n = nums.length;
         int low = 0;
