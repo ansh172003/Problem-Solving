@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class CNPainterPartition {
+public class CN_PainterPartition {
     public static boolean distancePossibe(ArrayList<Integer> boards, int givenLength, int k) {
         int lengthperPainter = 0;
         int painter = 1;

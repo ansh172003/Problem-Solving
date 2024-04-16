@@ -1,4 +1,4 @@
-public class CWFindFloorSQRT {
+public class CW_FindFloorSQRT {
     // O(SQRT(N)) Brute force
     public static int findSQRT(int n){
         if(n <= 1) return n;

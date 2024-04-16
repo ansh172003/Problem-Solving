@@ -1,4 +1,4 @@
-class LCMinimumRotatedSorted {
+class LC_MinimumRotatedSorted {
     public int findMin(int[] nums) {
         int low = 0;
         int high = nums.length - 1;

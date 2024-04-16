@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class CWAggressiveCows {
+public class CW_AggressiveCows {
     public static boolean canWePlace(int[] stalls, int cows, int dist){
         int placedCows = 1;
         int lastCow = stalls[0];

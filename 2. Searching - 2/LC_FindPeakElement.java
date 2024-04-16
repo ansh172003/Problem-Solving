@@ -1,4 +1,4 @@
-class LCFindPeakElement {
+class LC_FindPeakElement {
     public int findPeakElement(int[] nums) {
         int n = nums.length;
         if(n == 1) return 0;

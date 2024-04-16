@@ -1,4 +1,4 @@
-public class LCEqualStringWithinBudget {
+public class LC_EqualStringWithinBudget {
     public int equalSubstring(String s, String t, int maxCost) {
         int n = s.length();
         int ans = -1, window = 0, left = 0;

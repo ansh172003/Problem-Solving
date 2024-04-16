@@ -1,4 +1,4 @@
-public class GFGFindNthRootOfM {
+public class GFG_FindNthRootOfM {
     public static int findPow(int x, int p, int val){
         long ans = 1;
         for(int i = 0; i<p; i++){

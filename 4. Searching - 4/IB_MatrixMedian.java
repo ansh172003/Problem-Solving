@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class IBMatrixMedian {
+public class IB_MatrixMedian {
     // Approach 1 - Make arbitrary array and then sort it
     public int findMedianBruteForce(ArrayList<ArrayList<Integer>> A) {
         List<Integer> list = new ArrayList<Integer>();

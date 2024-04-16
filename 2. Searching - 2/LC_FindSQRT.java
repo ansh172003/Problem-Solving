@@ -1,4 +1,4 @@
-public class LCFindSQRT {
+public class LC_FindSQRT {
     public int mySqrt(int n) {
         long low = 1, high = n;
         while (low <= high) {

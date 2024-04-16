@@ -1,4 +1,4 @@
-public class LCMinBallsInABag {
+public class LC_MinBallsInABag {
     public int minimumSize(int[] nums, int maxOperations) {
         int left = 1;
         int right = 0;

@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 
-class SPOJAggressiveCows{
+class SPOJ_AggressiveCows {
     public static boolean canWePlace(int[] stalls, int cows, int dist){
         int placedCows = 1;
         int lastCow = stalls[0];

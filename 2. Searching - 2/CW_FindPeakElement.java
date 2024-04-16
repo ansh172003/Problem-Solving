@@ -1,4 +1,4 @@
-public class CWFindPeakElement {
+public class CW_FindPeakElement {
     // O(n) brute force approach
     public static int bruteForce(int[] nums){
         int n = nums.length;

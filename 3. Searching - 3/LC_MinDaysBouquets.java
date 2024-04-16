@@ -1,6 +1,6 @@
 import java.util.*;
 
-class LCMinDaysBouquets {
+class LC_MinDaysBouquets {
     public int minDays(int[] bloomDay, int m, int k) {
         if (bloomDay.length < (long) m * k)
             return -1;
