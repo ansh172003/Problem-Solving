@@ -85,13 +85,4 @@ class GFG_AutoComplete {
         suggestHelper(lastNode, list, curr);
         return list;
     }
-
-
-    public static void main(String[] args) {
-        List<String> words = List.of("hello", "dog", "hell", "cat", "a", "hel","help","helps","helping");
-        GFG_AutoComplete GFGAutoComplete = new GFG_AutoComplete(words);
-
-        System.out.println(GFGAutoComplete.suggest("hel"));
-    }
-
 }

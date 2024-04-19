@@ -1,10 +1,10 @@
-class TrieNode {
-    public TrieNode[] children = new TrieNode[26];
+class nodeTRIE {
+    public nodeTRIE[] children = new nodeTRIE[26];
     public int count = 0;
 }
 
 class LC_SumOfPrefixStrings {
-    TrieNode root = new TrieNode();
+    nodeTRIE root = new nodeTRIE();
     public int[] sumPrefixScores(String[] words) {
         int[] ans = new int[words.length];
         for (String word : words)
@@ -16,18 +16,18 @@ class LC_SumOfPrefixStrings {
 
 
     void insert(String word) {
-        TrieNode node = root;
+        nodeTRIE node = root;
         for (char c : word.toCharArray()) {
             int i = c - 'a';
             if (node.children[i] == null)
-                node.children[i] = new TrieNode();
+                node.children[i] = new nodeTRIE();
             node = node.children[i];
             ++node.count;
         }
     }
 
     private int findScore(String word) {
-        TrieNode node = root;
+        nodeTRIE node = root;
         int score = 0;
         for (char c : word.toCharArray()) {
             node = node.children[c - 'a'];
