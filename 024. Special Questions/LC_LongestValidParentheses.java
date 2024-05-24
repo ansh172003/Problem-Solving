@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class LC_LongestValidParentheses {
     // Stack Approach
-    public static int longestValidParentheses(String s) {
+    public static int[] longestValidParentheses(String s) {
         Stack<Integer> st = new Stack<>();
         int res = 0;
         st.push(-1);
@@ -20,7 +20,7 @@ public class LC_LongestValidParentheses {
                 }
             }
         }
-        return res;
+        return new int[]{-1, -1};
     }
 
     public static void main(String[] args) {
